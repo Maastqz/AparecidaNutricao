@@ -186,3 +186,8 @@ button[disabled=disabled], button:disabled {
 .invisivel {
 	display: none;
 }
+
+.imagemnutri{
+	margin-top: 50px;
+	margin-left: 690px;
+}
