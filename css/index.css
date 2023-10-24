@@ -5,12 +5,13 @@
 body{
 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	font-size: 14px;
+	background-color: #fcf4ec;
 }
 
 header{
-	background-color: #ff04ab;
+	background-color: #966d49;
 	height: 3em;
-	color: #FFF;
+	color: white;
 	margin-bottom: 1em;
 }
 
@@ -66,7 +67,7 @@ section h2{
 	font-size: 3em;
 	display: block;
 	padding-bottom: .5em;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #400406;
 	margin-bottom: .5em;
 
 }
@@ -81,17 +82,19 @@ table{
 td, th {
 	padding: .7em;
 	margin: 0;
-	border: 1px solid #ccc;
+	border: 1px solid #400406;
 	text-align: center;
+	
 }
 
 th{
 	font-weight: bold;
-	background-color: #EEE;
+	background-color: #966d49;
+	color: #fff;
 }
 
 label{
-	color: #555;
+	color: #7f5539;
 	display: block;
 	margin-bottom: .2em;
 }
@@ -100,7 +103,7 @@ label{
 	margin: 0;
 	padding-bottom: 1em;
 	width: 100%;
-	border: 1px solid #ccc;
+	border: 1px solid #400406;
 	padding: .7em;
 	width: 100%;
 }
@@ -120,8 +123,7 @@ label{
 	margin: 0;
 	padding-bottom: 1em;
 	width: 100%;
-	border: 1px solid #ccc;
-	padding: .7em;
+	padding: .1em;
 	width: 100%;
 }
 
@@ -134,8 +136,8 @@ button{
 	margin: 0;
 	margin-top: -3px;
 	color: #fff;
-	background-color:#0c8cd3;
-	border-color: #04324c;
+	background-color:#966d49;
+	border-color: #573b28;
 	width: 20%;
     display: block;
     clear: both;
@@ -159,7 +161,7 @@ button[disabled=disabled], button:disabled {
 }
 
 .campo-invalido{
-	border: 1px solid red;
+	border: 1px solid rgb(207, 32, 32);
 }
 
 .paciente-invalido {
@@ -167,7 +169,7 @@ button[disabled=disabled], button:disabled {
 }
 
 #mensagens-erro {
-	color: red;
+	color: rgb(207, 32, 32);
 }
 
 .fadeOut {
